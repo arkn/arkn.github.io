@@ -735,6 +735,7 @@ footer.sticky-bottom {
         max-height: 200px;
         object-fit: contain !important;
         width: auto !important;
+        margin: 0 auto !important; // centerize
       }
 
       .abbr {
