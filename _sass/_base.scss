@@ -733,7 +733,8 @@ footer.sticky-bottom {
       .preview {
         max-width: 100%;
         max-height: 200px;
-        object-fit: contain; /* 全体を表示 */
+        object-fit: contain !important;
+        width: auto !important;
       }
 
       .abbr {
